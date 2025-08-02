@@ -1,7 +1,11 @@
-export default function Home() {
- return (
-  <div>
-    <h1 className="text-red-500 text-2xl">Welcome to loom clone!</h1>
-  </div>
- )
+import React from 'react'
+
+const Page = () => {
+  return (
+    <div>
+      <h1 className="text-2xl font-karla">Welcome to Loom Clone</h1>
+    </div>
+  )
 }
+
+export default Page
